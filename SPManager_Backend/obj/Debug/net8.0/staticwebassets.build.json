@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "PwJhpzJB0ND54rFQXdNebwzSpt5DRJruQPcZK2kGybM=",
+  "Source": "SPManager_Backend",
+  "BasePath": "_content/SPManager_Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
