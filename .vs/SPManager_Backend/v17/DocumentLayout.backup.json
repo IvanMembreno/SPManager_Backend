@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|c:\\users\\membr\\documents\\asignaturas\\ciclo_06_2025\\proyectosdecatedra\\ics\\spmanager_backend\\spmanager_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|solutionrelative:spmanager_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|c:\\users\\membr\\documents\\asignaturas\\ciclo_06_2025\\proyectosdecatedra\\ics\\spmanager_backend\\spmanager_backend\\models\\estudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|solutionrelative:spmanager_backend\\models\\estudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|c:\\users\\membr\\documents\\asignaturas\\ciclo_06_2025\\proyectosdecatedra\\ics\\spmanager_backend\\spmanager_backend\\models\\detalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|solutionrelative:spmanager_backend\\models\\detalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|c:\\users\\membr\\documents\\asignaturas\\ciclo_06_2025\\proyectosdecatedra\\ics\\spmanager_backend\\spmanager_backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|solutionrelative:spmanager_backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|c:\\users\\membr\\documents\\asignaturas\\ciclo_06_2025\\proyectosdecatedra\\ics\\spmanager_backend\\spmanager_backend\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|solutionrelative:spmanager_backend\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|c:\\users\\membr\\documents\\asignaturas\\ciclo_06_2025\\proyectosdecatedra\\ics\\spmanager_backend\\spmanager_backend\\models\\detalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|solutionrelative:spmanager_backend\\models\\detalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|c:\\users\\membr\\documents\\asignaturas\\ciclo_06_2025\\proyectosdecatedra\\ics\\spmanager_backend\\spmanager_backend\\models\\encargado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|solutionrelative:spmanager_backend\\models\\encargado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|c:\\users\\membr\\documents\\asignaturas\\ciclo_06_2025\\proyectosdecatedra\\ics\\spmanager_backend\\spmanager_backend\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|solutionrelative:spmanager_backend\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|c:\\users\\membr\\documents\\asignaturas\\ciclo_06_2025\\proyectosdecatedra\\ics\\spmanager_backend\\spmanager_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2939F0-1AC4-4C95-A69B-FA2A5C6F7BCA}|SPManager_Backend\\SPManager_Backend.csproj|solutionrelative:spmanager_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,13 +50,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Encargado.cs",
+              "DocumentMoniker": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\SPManager_Backend\\Models\\Encargado.cs",
+              "RelativeDocumentMoniker": "SPManager_Backend\\Models\\Encargado.cs",
+              "ToolTip": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\SPManager_Backend\\Models\\Encargado.cs",
+              "RelativeToolTip": "SPManager_Backend\\Models\\Encargado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:42:39.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\SPManager_Backend\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SPManager_Backend\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\SPManager_Backend\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "SPManager_Backend\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:48:28.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\SPManager_Backend\\Program.cs",
               "RelativeDocumentMoniker": "SPManager_Backend\\Program.cs",
               "ToolTip": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\SPManager_Backend\\Program.cs",
               "RelativeToolTip": "SPManager_Backend\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-07T03:57:42.707Z",
               "EditorCaption": ""
@@ -56,38 +90,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Detalles.cs",
-              "DocumentMoniker": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\SPManager_Backend\\Models\\Detalles.cs",
-              "RelativeDocumentMoniker": "SPManager_Backend\\Models\\Detalles.cs",
-              "ToolTip": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\SPManager_Backend\\Models\\Detalles.cs",
-              "RelativeToolTip": "SPManager_Backend\\Models\\Detalles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "Detalle.cs",
+              "DocumentMoniker": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\SPManager_Backend\\Models\\Detalle.cs",
+              "RelativeDocumentMoniker": "SPManager_Backend\\Models\\Detalle.cs",
+              "ToolTip": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\SPManager_Backend\\Models\\Detalle.cs",
+              "RelativeToolTip": "SPManager_Backend\\Models\\Detalle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-07T03:41:56.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Estudiantes.cs",
-              "DocumentMoniker": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\SPManager_Backend\\Models\\Estudiantes.cs",
-              "RelativeDocumentMoniker": "SPManager_Backend\\Models\\Estudiantes.cs",
-              "ToolTip": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\SPManager_Backend\\Models\\Estudiantes.cs",
-              "RelativeToolTip": "SPManager_Backend\\Models\\Estudiantes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\SPManager_Backend\\Models\\Estudiante.cs",
+              "RelativeDocumentMoniker": "SPManager_Backend\\Models\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\SPManager_Backend\\Models\\Estudiante.cs",
+              "RelativeToolTip": "SPManager_Backend\\Models\\Estudiante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-07T03:23:57.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "EstudiantesController.cs",
               "DocumentMoniker": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\SPManager_Backend\\Controllers\\EstudiantesController.cs",
               "RelativeDocumentMoniker": "SPManager_Backend\\Controllers\\EstudiantesController.cs",
               "ToolTip": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\SPManager_Backend\\Controllers\\EstudiantesController.cs",
               "RelativeToolTip": "SPManager_Backend\\Controllers\\EstudiantesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-06T21:10:51.626Z",
               "EditorCaption": ""

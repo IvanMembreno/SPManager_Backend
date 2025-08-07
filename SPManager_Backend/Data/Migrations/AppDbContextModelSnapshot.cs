@@ -22,7 +22,7 @@ namespace SPManager_Backend.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("SPManager_Backend.Models.Detalles", b =>
+            modelBuilder.Entity("SPManager_Backend.Models.Detalle", b =>
                 {
                     b.Property<int>("IdDescripcion")
                         .ValueGeneratedOnAdd()
@@ -48,14 +48,13 @@ namespace SPManager_Backend.Data.Migrations
 
                     b.HasKey("IdDescripcion");
 
-                    b.ToTable("Detalles");
+                    b.ToTable("Detalle", (string)null);
                 });
 
             modelBuilder.Entity("SPManager_Backend.Models.Encargado", b =>
                 {
                     b.Property<int>("IdEncargado")
                         .ValueGeneratedOnAdd()
-                        .HasMaxLength(100)
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdEncargado"));
@@ -86,10 +85,10 @@ namespace SPManager_Backend.Data.Migrations
 
                     b.HasKey("IdEncargado");
 
-                    b.ToTable("Encargados");
+                    b.ToTable("Encargado", (string)null);
                 });
 
-            modelBuilder.Entity("SPManager_Backend.Models.Estudiantes", b =>
+            modelBuilder.Entity("SPManager_Backend.Models.Estudiante", b =>
                 {
                     b.Property<string>("CodigoEstudiante")
                         .HasMaxLength(20)
@@ -142,12 +141,12 @@ namespace SPManager_Backend.Data.Migrations
 
                     b.HasIndex("IdEncargado");
 
-                    b.ToTable("Estudiantes");
+                    b.ToTable("Estudiante", (string)null);
                 });
 
-            modelBuilder.Entity("SPManager_Backend.Models.Estudiantes", b =>
+            modelBuilder.Entity("SPManager_Backend.Models.Estudiante", b =>
                 {
-                    b.HasOne("SPManager_Backend.Models.Detalles", "Detalles")
+                    b.HasOne("SPManager_Backend.Models.Detalle", "Detalles")
                         .WithMany()
                         .HasForeignKey("IdDescripcion")
                         .OnDelete(DeleteBehavior.Cascade)

@@ -3,7 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SPManager_Backend.Models
 {
-    public class Estudiantes
+    [Table("Estudiante")]
+    public class Estudiante
     {
         [Key]
         [StringLength(20)]
@@ -44,7 +45,7 @@ namespace SPManager_Backend.Models
         [ForeignKey("Encargado")]
         public int IdEncargado { get; set; }
 
-        public virtual Detalles? Detalles { get; set; }
+        public virtual Detalle? Detalles { get; set; }
         public virtual Encargado Encargado { get; set; }
     }
 }

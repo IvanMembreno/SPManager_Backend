@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SPManager_Backend.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class CorreccionNombresTablas : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Detalles",
+                name: "Detalle",
                 columns: table => new
                 {
                     IdDescripcion = table.Column<int>(type: "int", nullable: false)
@@ -24,14 +24,14 @@ namespace SPManager_Backend.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Detalles", x => x.IdDescripcion);
+                    table.PrimaryKey("PK_Detalle", x => x.IdDescripcion);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Encargados",
+                name: "Encargado",
                 columns: table => new
                 {
-                    IdEncargado = table.Column<int>(type: "int", maxLength: 100, nullable: false)
+                    IdEncargado = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nombre = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Apellido = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
@@ -41,11 +41,11 @@ namespace SPManager_Backend.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Encargados", x => x.IdEncargado);
+                    table.PrimaryKey("PK_Encargado", x => x.IdEncargado);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Estudiantes",
+                name: "Estudiante",
                 columns: table => new
                 {
                     CodigoEstudiante = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
@@ -61,29 +61,29 @@ namespace SPManager_Backend.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Estudiantes", x => x.CodigoEstudiante);
+                    table.PrimaryKey("PK_Estudiante", x => x.CodigoEstudiante);
                     table.ForeignKey(
-                        name: "FK_Estudiantes_Detalles_IdDescripcion",
+                        name: "FK_Estudiante_Detalle_IdDescripcion",
                         column: x => x.IdDescripcion,
-                        principalTable: "Detalles",
+                        principalTable: "Detalle",
                         principalColumn: "IdDescripcion",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Estudiantes_Encargados_IdEncargado",
+                        name: "FK_Estudiante_Encargado_IdEncargado",
                         column: x => x.IdEncargado,
-                        principalTable: "Encargados",
+                        principalTable: "Encargado",
                         principalColumn: "IdEncargado",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Estudiantes_IdDescripcion",
-                table: "Estudiantes",
+                name: "IX_Estudiante_IdDescripcion",
+                table: "Estudiante",
                 column: "IdDescripcion");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Estudiantes_IdEncargado",
-                table: "Estudiantes",
+                name: "IX_Estudiante_IdEncargado",
+                table: "Estudiante",
                 column: "IdEncargado");
         }
 
@@ -91,13 +91,13 @@ namespace SPManager_Backend.Data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Estudiantes");
+                name: "Estudiante");
 
             migrationBuilder.DropTable(
-                name: "Detalles");
+                name: "Detalle");
 
             migrationBuilder.DropTable(
-                name: "Encargados");
+                name: "Encargado");
         }
     }
 }

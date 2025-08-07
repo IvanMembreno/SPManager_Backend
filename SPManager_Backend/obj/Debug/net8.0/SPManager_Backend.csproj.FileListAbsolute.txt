@@ -294,3 +294,4 @@ C:\Users\membr\Documents\Asignaturas\Ciclo_06_2025\ProyectosDeCatedra\ICS\SPMana
 C:\Users\membr\Documents\Asignaturas\Ciclo_06_2025\ProyectosDeCatedra\ICS\SPManager_Backend\SPManager_Backend\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\membr\Documents\Asignaturas\Ciclo_06_2025\ProyectosDeCatedra\ICS\SPManager_Backend\SPManager_Backend\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\membr\Documents\Asignaturas\Ciclo_06_2025\ProyectosDeCatedra\ICS\SPManager_Backend\SPManager_Backend\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\membr\Documents\Asignaturas\Ciclo_06_2025\ProyectosDeCatedra\ICS\SPManager_Backend\SPManager_Backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

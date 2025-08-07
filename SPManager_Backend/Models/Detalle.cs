@@ -3,7 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SPManager_Backend.Models
 {
-    public class Detalles
+    [Table("Detalle")]
+    public class Detalle
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

@@ -25,7 +25,7 @@ namespace SPManager_Backend.Controllers
         #region Obtener todos
         // GET: api/Estudiantes
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Estudiantes>>> GetEstudiantes()
+        public async Task<ActionResult<IEnumerable<Estudiante>>> GetEstudiantes()
         {
             return await _context.Estudiantes.ToListAsync();
         }

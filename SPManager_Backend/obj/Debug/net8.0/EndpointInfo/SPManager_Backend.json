@@ -18,7 +18,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Estudiantes"
+                    "$ref": "#/components/schemas/Estudiante"
                   }
                 }
               },
@@ -26,7 +26,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Estudiantes"
+                    "$ref": "#/components/schemas/Estudiante"
                   }
                 }
               },
@@ -34,7 +34,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Estudiantes"
+                    "$ref": "#/components/schemas/Estudiante"
                   }
                 }
               }
@@ -46,7 +46,7 @@
   },
   "components": {
     "schemas": {
-      "Detalles": {
+      "Detalle": {
         "required": [
           "descripcion",
           "horasRegistradas",
@@ -83,14 +83,11 @@
         "required": [
           "apellido",
           "correo",
-          "idEncargado",
           "nombre"
         ],
         "type": "object",
         "properties": {
           "idEncargado": {
-            "maxLength": 100,
-            "minLength": 0,
             "type": "integer",
             "format": "int32"
           },
@@ -124,7 +121,7 @@
         },
         "additionalProperties": false
       },
-      "Estudiantes": {
+      "Estudiante": {
         "required": [
           "apellido",
           "carrera",
@@ -188,7 +185,7 @@
             "format": "int32"
           },
           "detalles": {
-            "$ref": "#/components/schemas/Detalles"
+            "$ref": "#/components/schemas/Detalle"
           },
           "encargado": {
             "$ref": "#/components/schemas/Encargado"

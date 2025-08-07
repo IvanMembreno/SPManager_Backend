@@ -5,13 +5,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace SPManager_Backend.Models
 {
+    [Table("Encargado")]
     public class Encargado
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-
-        [Required]
-        [StringLength(100)]
         public int IdEncargado { get; set; }
 
         [Required]
