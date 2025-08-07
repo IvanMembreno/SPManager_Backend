@@ -5,12 +5,11 @@
     "version": "1.0"
   },
   "paths": {
-    "/WeatherForecast": {
+    "/api/Estudiantes": {
       "get": {
         "tags": [
-          "WeatherForecast"
+          "Estudiantes"
         ],
-        "operationId": "GetWeatherForecast",
         "responses": {
           "200": {
             "description": "OK",
@@ -19,7 +18,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
+                    "$ref": "#/components/schemas/Estudiantes"
                   }
                 }
               },
@@ -27,7 +26,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
+                    "$ref": "#/components/schemas/Estudiantes"
                   }
                 }
               },
@@ -35,7 +34,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
+                    "$ref": "#/components/schemas/Estudiantes"
                   }
                 }
               }
@@ -47,25 +46,152 @@
   },
   "components": {
     "schemas": {
-      "WeatherForecast": {
+      "Detalles": {
+        "required": [
+          "descripcion",
+          "horasRegistradas",
+          "lugar"
+        ],
         "type": "object",
         "properties": {
-          "date": {
-            "type": "string",
-            "format": "date"
-          },
-          "temperatureC": {
+          "idDescripcion": {
             "type": "integer",
             "format": "int32"
           },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
+          "lugar": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
           },
-          "summary": {
+          "descripcion": {
+            "maxLength": 500,
+            "minLength": 0,
+            "type": "string"
+          },
+          "horasRegistradas": {
+            "type": "number",
+            "format": "double"
+          },
+          "fechaRegistro": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Encargado": {
+        "required": [
+          "apellido",
+          "correo",
+          "idEncargado",
+          "nombre"
+        ],
+        "type": "object",
+        "properties": {
+          "idEncargado": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "apellido": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "correo": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "telefonoPersonal": {
+            "maxLength": 15,
+            "minLength": 0,
             "type": "string",
             "nullable": true
+          },
+          "telefonoOficina": {
+            "maxLength": 15,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Estudiantes": {
+        "required": [
+          "apellido",
+          "carrera",
+          "ciclo",
+          "correo",
+          "facultad",
+          "idEncargado",
+          "nombre"
+        ],
+        "type": "object",
+        "properties": {
+          "codigoEstudiante": {
+            "maxLength": 20,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "nombre": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "apellido": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "facultad": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "carrera": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "ciclo": {
+            "maxLength": 10,
+            "minLength": 0,
+            "type": "string"
+          },
+          "correo": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "format": "email"
+          },
+          "telefono": {
+            "maxLength": 15,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "idDescripcion": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idEncargado": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "detalles": {
+            "$ref": "#/components/schemas/Detalles"
+          },
+          "encargado": {
+            "$ref": "#/components/schemas/Encargado"
           }
         },
         "additionalProperties": false
