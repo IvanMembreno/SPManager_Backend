@@ -38,7 +38,7 @@ namespace SPManager_Backend.Models
         [StringLength(15)]
         public string Telefono { get; set; } = string.Empty;
 
-        [ForeignKey("Detalle")]
+        [ForeignKey("Detalles")]
         public int IdDescripcion { get; set; }
 
         [Required]

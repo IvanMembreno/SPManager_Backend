@@ -42,6 +42,45 @@
           }
         }
       }
+    },
+    "/api/Estudiantes/{id}": {
+      "get": {
+        "tags": [
+          "Estudiantes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Estudiante"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Estudiante"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Estudiante"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
