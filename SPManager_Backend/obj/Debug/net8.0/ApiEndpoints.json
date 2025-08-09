@@ -18,31 +18,5 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "SPManager_Backend.Controllers.EstudiantesController",
-    "Method": "GetEstudiatePorId",
-    "RelativePath": "api/Estudiantes/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "SPManager_Backend.Models.Estudiante",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
   }
 ]

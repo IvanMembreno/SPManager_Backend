@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SPManager_Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b280938008172748c6ca04d900f6401cc3114ff2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4a46af44b2f6268e9e1e1320a4d8b3ca697f034")]
 [assembly: System.Reflection.AssemblyProductAttribute("SPManager_Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SPManager_Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

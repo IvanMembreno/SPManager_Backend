@@ -14,6 +14,7 @@ namespace SPManager_Backend.Controllers
     [ApiController]
     public class EstudiantesController : ControllerBase
     {
+
         //private readonly AppDbContext _context; //Se genero automaticamente al crear el controlador
         public AppDbContext _context;
 

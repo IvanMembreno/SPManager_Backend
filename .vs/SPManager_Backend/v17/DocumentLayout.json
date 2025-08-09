@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "SPManager_Backend\\Controllers\\EstudiantesController.cs",
               "ToolTip": "C:\\Users\\membr\\Documents\\Asignaturas\\Ciclo_06_2025\\ProyectosDeCatedra\\ICS\\SPManager_Backend\\SPManager_Backend\\Controllers\\EstudiantesController.cs",
               "RelativeToolTip": "SPManager_Backend\\Controllers\\EstudiantesController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwB8AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-09T03:54:30.483Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "SPManager_Backend\\Models\\Estudiante.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T03:35:21.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T03:35:21.072Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "SPManager_Backend\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T03:57:42.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T03:57:42.707Z"
             }
           ]
         }
